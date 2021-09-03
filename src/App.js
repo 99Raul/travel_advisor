@@ -34,6 +34,7 @@ const App = () => {
 		);
 
 		setFilteredPlaces(filteredPlaces);
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [rating]);
 
 	useEffect(() => {
@@ -51,6 +52,7 @@ const App = () => {
 				setIsLoading(false);
 			});
 		}
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [type, bounds]);
 
 	// console.log(places);

@@ -31,6 +31,7 @@ const List = ({
 			.map((_, i) => elRefs[i] || createRef());
 
 		setElRefs(refs);
+		// eslint-disable-next-line react-hooks/exhaustive-deps
 	}, [places]);
 
 	return (
